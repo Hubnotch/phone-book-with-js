@@ -1,7 +1,9 @@
+//Phone book
 const phone_Book = [
     { firstName: "Ekene", lastName: "Love", phoneNumber: "07060748361" }
 ]
 
+//Create contact and add it to phonebook
 const phoneBook = (firstName, lastName, phoneNumber) => {
     const info = {}
     info["firstName"] = firstName;
@@ -22,7 +24,6 @@ console.log(phone_Book)
 /* Search contact from the phoneBook */
 const findContactInfo = searchQuery => {
     let search = phone_Book.filter(item => {
-        //console.log(item)
         return item.firstName == searchQuery || item.lastName == searchQuery || item.phoneNumber == searchQuery
     })
     return search
