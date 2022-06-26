@@ -1,4 +1,4 @@
-const str = 'huyihh'
+const str = 'huAS'
 
 
 const totalLowerCaseString = word => {
@@ -14,4 +14,4 @@ const totalLowerCaseString = word => {
 // 'dre'.toLowerCase()
 console.log(totalLowerCaseString(str))
 
-// console.log("hello".charAt(0))
+// console.log("hello".charAt(0)
